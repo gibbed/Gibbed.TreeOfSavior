@@ -218,7 +218,7 @@ namespace Gibbed.TreeOfSavior.Pack
 
                     if (fileEntry.ShouldCompress == true)
                     {
-                        const int compressionLevel = Deflater.BEST_COMPRESSION;
+                        int compressionLevel = Deflater.BEST_COMPRESSION;
 
                         byte[] compressedBytes;
 
